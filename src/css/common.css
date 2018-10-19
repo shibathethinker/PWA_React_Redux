@@ -1,0 +1,23 @@
+body{
+    font-family: 'Candara'
+}
+
+.site_header{
+display: flex;
+align-items: center;
+}
+
+
+.header_content{
+    flex-grow: 1;
+    background-color: #E91E63;
+    /* width: 90%; */
+    margin: auto;
+    height: 45px;
+    display: flex;
+}
+
+.header_content_text{
+    margin: auto;
+    color: white;
+}

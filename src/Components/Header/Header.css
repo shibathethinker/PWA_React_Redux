@@ -1,0 +1,38 @@
+body{
+    font-family: 'Candara'
+}
+
+.site_header{
+display: flex;
+flex-grow: 1;
+/*background-color: ;*/
+background-color: #b96f88;
+
+/* width: 90%; */
+margin: auto;
+height: 45px;
+display: flex;
+justify-content: flex-start;
+}
+
+
+
+.header_content_text a{
+    margin: auto;
+    color: white;    
+    text-decoration: none;
+}
+
+.header_content_text a:visited{
+color: rgb(229, 228, 231);    
+}
+
+.site_header .header_content_text
+{
+    padding: 10px;
+}
+
+.header_content_text:hover{
+text-decoration: underline;
+cursor: pointer;
+}

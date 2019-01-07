@@ -1,0 +1,32 @@
+.rowSelected{
+    background-color: dodgerblue;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+thead{
+background-color: #619282;
+
+}
+
+thead p{
+    cursor: pointer;
+}
+
+.paginationStyle{
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    width: 20px;
+    box-shadow: 1px 2px black;
+    background-color: #619282;
+}

@@ -1,0 +1,35 @@
+.textBoxContainer{
+height: 40px;
+position: relative;
+margin: 20px;
+}
+
+.textBoxInput+ label{
+left: 0px;
+position: absolute;
+font-size: 18px;
+}
+
+.textBoxInput{
+border-bottom: solid 2px #984343;
+border-top: none;
+border-left: none;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textBoxInput:focus{
+    border-bottom: solid 2px #4caf50;
+    outline: none;
+}
+
+.textBoxInput:focus +label,.textBoxInput[data-empty='false']+label{
+top:-15px;
+font-size: 12px;
+}
+
+.textBoxContainer p{
+font-size: 14px;
+color: rgb(216, 20, 20);
+position: relative;
+top:-15px;
+    }

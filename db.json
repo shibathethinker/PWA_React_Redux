@@ -1,0 +1,10 @@
+{
+  "posts": [
+    { "id": 1, "Name": "pen", "Stock": "100" },
+    { "id": 2, "Name": "pencil", "Stock": "150" },
+    { "id":31, "Name": "book", "Stock": "100" },
+    { "id":4, "Name": "eraser", "Stock": "1000" },
+    { "id":5, "Name": "glue", "Stock": "110" },
+    { "id":6, "Name": "folder", "Stock": "300" }
+  ]
+}
